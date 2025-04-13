@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://kit.fontawesome.com/05854e9ead.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator App</title>
+  <link rel="stylesheet" href="lev2.css">
+</head>
+
+<body>
+  <main class="main-container">
+    <div class="wsa-icon-container">
+      <img src="wsa-logo.svg" alt="wsa icon" class="wsaicon">
+    </div>
+    <div class="sub-container">
+      <div class="header-container">
+        <h1 class="header">Calculator</h1>
+      </div>
+      <div class="calculator-container">
+        <div class="background-circle"></div>
+        <div class="calculator">
+          <div class="output-field-container">
+            <input type="text" class="output-field" id="display" readonly>
+            <input type="text" class="input-field" id="input-screen" readonly>
+          </div>
+          <section class="btn-row">
+            <button class="clear-icon bg-icon">C</button>
+            <button class="delete-icon bg-icon">&#9003;</i></button>
+            <button class="percentage-icon bg-icon">%</i></button>
+          </section>
+          <section class="btn-row">
+            <button>(</button>
+            <button>)</button>
+            <button class="power-icon">^</button>
+            <button class="toggle-sign-icon bg-icon">+/-</button>
+            <button class="squareroot-icon bg-icon">√x</button>
+          </section>
+          <section class="btn-row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="divide-icon bg-icon">&divide;</button>
+            <button class="mod-icon bg-icon">Mod</button>
+          </section>
+          <section class="btn-row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="multiply-icon bg-icon">&times;</button>
+            <button class="bg-icon reciprocal-icon">1/x</button>
+          </section>
+          <section class="btn-row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="add-icon bg-icon">+</button>
+            <button class="equal-icon bg-icon">=</button>
+          </section>
+          <section class="btn-row">
+            <button class="zero">0</button>
+            <button>.</button>
+            <button class="minus-icon bg-icon">-</button>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-name">&copy; 2025 WSA. All Rights Reserved</footer>
+  </main>
+  <script src="lev2script.js"></script>
+</body>
+
+</html>
